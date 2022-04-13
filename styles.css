@@ -19,3 +19,9 @@ body {
   align-self: center;
   border-bottom: 1px solid white;
 }
+
+.moves {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+}
