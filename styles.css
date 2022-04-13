@@ -13,3 +13,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.game_name {
+  font: 4rem;
+  align-self: center;
+  border-bottom: 1px solid white;
+}
