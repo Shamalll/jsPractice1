@@ -25,3 +25,39 @@ body {
   margin-top: 4rem;
   align-items: center;
 }
+
+.user_moves {
+  width: 30%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  justify-items: center;
+  gap: 1rem;
+  grid-template-areas:
+    "rock rock"
+    "scissors paper";
+}
+
+button {
+  border: none;
+  color: #0049b7;
+  font-size: 1.1rem;
+}
+
+.rock {
+  grid-area: scissors;
+}
+
+.scissors {
+  grid-area: scissors;
+}
+
+button,
+.computer_move {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100px;
+  background-color: white;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
